@@ -1,0 +1,174 @@
+body {
+    background-color: black;
+    box-shadow: 63px 65px 189px #3db03d inset;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    align-items: center;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.logo img {
+    width: 35px;
+    padding: 3px 15px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 10px 17px;
+    font-size: 1.3rem;
+    margin: 5px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    text-align: right;
+    width: 65%;
+}
+
+.rightnav input {
+    outline: none;
+    border-radius: 10px;
+    padding: 4px 6px;
+    font-style: italic;
+}
+
+#search {
+    margin: 10px;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+    height: 75vh;
+    background-color: #6add6a;
+    color: white;
+    box-shadow: 63px 65px 189px black inset;
+    width: 80%;
+    /* justify-content: center; */
+    display: flex;
+    margin: 21px auto;
+    border-radius: 20px;
+}
+
+.bottom {
+    position: sticky;
+    background-color: black;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+#myProgressBar {
+    width: 80%;
+    margin: 3px 0px;
+    cursor: pointer;
+}
+
+.icons {
+    padding: 6px 0px;
+}
+
+.icons i {
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.songItem {
+    display: flex;
+    height: 45px;
+    background-color: white;
+    color: black;
+    margin: 10px 0px;
+    border-radius: 25px;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songItem img {
+    padding: 3px 3px;
+    border-radius: 30px;
+    width: 14%;
+}
+
+.songlistplay {
+    padding: 0px 3px;
+    font-size: 1.2rem;
+}
+
+.timespan {
+    padding: 2px 5px;
+    margin: 0px 1px;
+}
+
+.songList {
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.songItemContainer {
+    padding: 10px 0px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img {
+    width: 5%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
